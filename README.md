@@ -9,3 +9,6 @@ Day 2
 
 ![Day 2](https://user-images.githubusercontent.com/104457295/202450373-159271b4-200a-4f8e-95b4-a692309f9599.png)
 
+Day 3
+
+![ASCII Values Program Using Type Conversion](https://user-images.githubusercontent.com/104457295/202722545-23f494de-7515-4714-a8ea-c4123cf7cec7.png)
