@@ -12,3 +12,7 @@ Day 2
 Day 3
 
 ![ASCII Values Program Using Type Conversion](https://user-images.githubusercontent.com/104457295/202722545-23f494de-7515-4714-a8ea-c4123cf7cec7.png)
+
+Day 4 
+
+![Write a program to identify of the a number is positive or negative](https://user-images.githubusercontent.com/104457295/202850121-c52da35e-5605-43de-bb53-af86279688b6.png)
