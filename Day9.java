@@ -14,8 +14,7 @@ public class Day9 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Input Number");
         int n = sc.nextInt();
-        System.out.println("The Number Of Digits Are : " + digitCounter(n));
+        System.out.println(digitCounter(n));
         sc.close();
-        ;
     }
 }
