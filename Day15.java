@@ -1,32 +1,32 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class Day15 {
+    public static int factorial(int n) // Function For Finding factorial
+    {
+        int factorial = 1;
+        for (int i = 1; i <= n; i++) {
+            factorial = factorial * i;
+        }
+        return factorial;
+    }
+
     public static void main(String[] args) {
-        int n, i;
-        int fact, rem;
+        int sum = 0; // Declaration
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number : ");
-        n = sc.nextInt();
-        int sum = 0;
-        int temp = n;
+        System.out.println("Enter Number");
+        int n = sc.nextInt(); // Taking Input From User
+        int n1 = n; // Copy Of n To Compare With Sum
         while (n != 0) {
-            i = 1;
-            fact = 1;
-            rem = n % 10;
-
-            while (i <= rem) {
-                fact = fact * i;
-                i++;
-            }
-            sum = sum + fact;
-            n = n / 10;
+            int d = n % 10; // To Get Last Digit
+            sum = sum + factorial(d); // for Finding Sum of Factorial
+            n = n / 10; // To Remove Last Digit After Every Iteration
         }
-        if (sum == temp) {
-            System.out.println(temp + " is a strong number\n");
+
+        if (sum == n1) {
+            System.out.println("Strong Number");
         } else {
-            System.out.println(temp + " is not a strong number\n");
+            System.out.println("Not a Strong Number");
         }
-
         sc.close();
     }
 }
