@@ -32,5 +32,4 @@ public class Day19 {
         }
         sc.close();
     }
-
 }
