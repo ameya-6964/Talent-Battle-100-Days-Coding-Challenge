@@ -6,8 +6,9 @@ public class Day20 {
             return false;
         }
         for (int i = 2; i <= num / 2; i++) {
-            if ((num % i) == 0)
+            if ((num % i) == 0) {
                 return false;
+            }
         }
         return true;
     }
@@ -24,5 +25,4 @@ public class Day20 {
             System.out.println(number + " is not a prime number");
         }
     }
-
 }
