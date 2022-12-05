@@ -7,7 +7,7 @@ public class Day12 {
         System.out.println("Please Enter Numbers");
         int number = sc.nextInt();
         sc.close();
-        for (sum = 0; number != 0; number = number / 10) {
+        while (number != 0) {
             sum = sum + number % 10;
         }
         System.out.println(sum);
