@@ -4,7 +4,7 @@ public class Day9 {
     static int digitCounter(int n) {
         int count = 0;
         while (n != 0) {
-            n = n / 10;
+            n = n / 10; // incrementation
             count++;
         }
         return count;
