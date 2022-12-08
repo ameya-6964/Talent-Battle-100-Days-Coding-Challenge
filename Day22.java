@@ -19,19 +19,15 @@ public class Day22 {
         int flag = 0;
         for (int i = 2; i <= num / 2; ++i) {
             if (sumprimes(i) == 1) {
-                if (sumprimes(num - i) == 1)
-
-                {
-
+                if (sumprimes(num - i) == 1) {
                     System.out.println(num + " can be expressed as the sum of " + i + " and " + (num - i));
-
                     flag = 1;
-
                 }
             }
         }
-        if (flag == 0)
-
+        if (flag == 0) {
             System.out.println(num + " cannot be expressed as the sum of two primes");
+        }
+        sc.close();
     }
 }
