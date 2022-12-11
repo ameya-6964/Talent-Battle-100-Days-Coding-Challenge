@@ -53,3 +53,16 @@ Day 13
 
 ![sum of prime numbers](https://user-images.githubusercontent.com/104457295/204481132-cc4cdd76-cf86-4b29-b124-3f27cf80fc87.png)
 
+Day 14
+
+![Day 14](https://user-images.githubusercontent.com/104457295/206893650-9e86a123-d026-455a-b1f9-9e4939328a07.png)
+
+
+Day 15
+
+
+Day 16
+
+
+Day 17
+
